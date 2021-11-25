@@ -5,7 +5,7 @@ rightWristy=0;
 song="";
 leftWrist_score=0;
 leftWristy_number=0;
-rightWrist_sore=0;
+rightWrist_score=0;
 function preload(){
 song=loadSound("music.mp3");
 }
