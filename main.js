@@ -69,12 +69,12 @@ function play(){
 function gotPoses(results){
     if(results.length>0){
         console.log(results);
-        leftWrist_score=results[0].pose.keypoints[9].leftWrist_score;
+        leftWrist_score=results[0].pose.keypoints[9].score;
         leftWristx=results[0].pose.leftWrist.x;
         leftWristy=results[0].pose.leftWrist.y;
         rightWristx=results[0].pose.rightWrist.x;
         rightWristy=results[0].pose.rightWrist.y
-        rightWrist_score=results[0].pose.keypoints[10].rightWrist_score;
+        rightWrist_score=results[0].pose.keypoints[10].score;
     }
 }
 
